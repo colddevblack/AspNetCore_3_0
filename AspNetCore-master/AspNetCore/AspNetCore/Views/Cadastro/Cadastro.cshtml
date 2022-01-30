@@ -1,0 +1,169 @@
+﻿
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<h1>Cadastro</h1>
+
+
+<form class="needs-validation" novalidate method="post">
+
+    <div class="form-row">
+        <div class="col-md-10">
+            <label for="validationCustom01">Nome</label>
+            <input type="text" class="form-control" id="IdNome" placeholder="Fernando Bareno Calo" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+        <div class="col-md-2">
+            <label for="validationCustom02">CPF</label>
+            <input type="text" class="form-control" id="IdCPF" placeholder="000.000.000-00" onkeypress="$(this).mask('000.000.000-00');" required>
+
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-3">
+            <label for="ValidaTelefone">Telefone 1</label>
+            <input type="tel" class="form-control" id="IdTelefone1" name="Telefone" placeholder="(11)99999-0000" onkeypress="$(this).mask('(00)00000-0000');" required />
+        </div>
+        <div class="col-md-3">
+            <label for="ValidaTelefone">Telefone 2</label>
+            <input type="tel" class="form-control" id="IdTelefone2" name="Telefone" placeholder="(11)99999-0000" onkeypress="$(this).mask('(00)00000-0000');" />
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">E-mail</label>
+            <input type="email" class="form-control" placeholder="seuemail@seuprovedor.com(.br)" id="IdEmail">
+        </div>
+
+        <div class="form-group col-md-3">
+            <label for="inputPassword4">Senha</label>
+            <input type="password" class="form-control" id="IdPassword">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="inputPassword4">Confirmação de Senha</label>
+            <input type="password" class="form-control" id="IdPasswordConfirm">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputAddress">Endereço</label>
+            <input type="text" class="form-control" id="IdEndereco" placeholder="Av. João Ventura dos Santos">
+        </div>
+        <div class="form-group col-md-1">
+            <label for="inputAddress2">Numero</label>
+            <input type="text" class="form-control" id="IdNumero" placeholder="222">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputComplement">Complemento</label>
+            <input type="text" class="form-control" id="IdComplemento" placeholder="Casa" />
+        </div>
+        <div class="form-group col-md-1">
+
+            <div class="form-group align-content-center">
+                <br />
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <br />
+                        <input type="checkbox" class="form-check-input" id="SNCheck">S/N
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="IdCidade" placeholder="Osasco">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputState">Estado</label>
+            <select id="inputState" class="form-control">
+                <option selected></option>
+                <option>Acre - AC</option>
+                <option>Alagoas - AL</option>
+                <option>Amapá - AP</option>
+                <option>Amazonas - AM</option>
+                <option>Bahia - BA</option>
+                <option>Ceará - CE</option>
+                <option>Distrito Federal - DF</option>
+                <option>Espírito Santo - ES</option>
+                <option>Goiás - GO</option>
+                <option>Maranhão - MA</option>
+                <option>Mato Grosso - MT</option>
+                <option>Mato Grosso do Sul - MS</option>
+                <option>Minas Gerais - MG</option>
+                <option>Pará - PA</option>
+                <option>Paraíba - PB</option>
+                <option>Paraná - PR</option>
+                <option>Pernambuco - PE</option>
+                <option>Piauí - PI</option>
+                <option>Rio de Janeiro - RJ</option>
+                <option>Rio Grande do Norte - RN</option>
+                <option>Rio Grande do Sul - RS</option>
+                <option>Rondônia - RO</option>
+                <option>Roraima - RR</option>
+                <option>Santa Catarina - SC</option>
+                <option>São Paulo - SP</option>
+                <option>Sergipe - SE</option>
+                <option>Tocantins - TO</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputZip">CEP</label>
+            <input type="text" class="form-control" id="IdCEP" placeholder="06260-170" onkeypress="$(this).mask('00000-000');">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div>
+            <textarea id="TextTermosdeUso" rows="10" name="TextTermosdeUso" class="col-md-12" disabled>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent iaculis, turpis vitae imperdiet tincidunt, turpis metus aliquam orci, id fringilla quam nisi id nunc. Fusce quis mauris elementum, scelerisque leo ac, placerat velit. Aliquam purus nibh, consectetur vestibulum mi a, iaculis ultrices dui. Fusce quam risus, accumsan viverra pulvinar sed, luctus at sem. Vestibulum maximus, leo in accumsan placerat, tellus mauris semper ligula, at pharetra nunc purus vel neque. Donec id velit accumsan, maximus velit at, molestie dui. Sed molestie mi sed lorem egestas ornare. Nam sit amet leo vitae magna cursus pharetra vehicula ac leo. Proin mattis nunc nec lectus laoreet ultricies. Morbi pellentesque nisi a dolor porttitor maximus. Nulla placerat diam purus.
+
+                Praesent ut lorem risus. Cras mattis ipsum mi, vel posuere tortor malesuada in. Suspendisse pellentesque neque quis diam consectetur, at vulputate risus accumsan. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus erat nulla, sagittis mattis efficitur a, mollis at ex. Aliquam sit amet aliquet eros, ut aliquam ligula. Integer viverra aliquet hendrerit. Nunc porttitor vitae tellus ut tempus. Sed facilisis nec eros sit amet eleifend. Donec accumsan lorem quis metus viverra, at lacinia ligula aliquet. Nullam suscipit et sapien eget tempus. Vestibulum ultrices rutrum nisi, tempor mollis leo tincidunt sit amet. Nunc eleifend nunc nec arcu finibus, sed tincidunt justo suscipit.
+
+                Duis commodo mauris nisi, ut vehicula tortor imperdiet at. Donec aliquam erat sed arcu molestie, at viverra nisl tincidunt. Praesent facilisis tristique augue, non tempus dui pellentesque a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam maximus, libero vel vulputate pellentesque, urna justo malesuada mauris, quis tincidunt nisi nulla sit amet massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean at sagittis nibh. Donec ut condimentum dolor. Nulla vulputate aliquet risus at pellentesque. Nunc dictum molestie purus. Cras vel lacus a ante egestas interdum ut et nibh. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque ac est nunc. Praesent ultricies risus eget tortor tincidunt, non feugiat nulla imperdiet. Suspendisse luctus nibh ac malesuada mollis.
+
+                Pellentesque ac sem erat. Suspendisse egestas ex lobortis, sodales ipsum eu, convallis est. Nunc ornare rhoncus ornare. Cras porttitor libero ac mi pulvinar, nec pulvinar leo imperdiet. Duis sed condimentum erat, sit amet mattis mauris. Duis a turpis erat. Vivamus rutrum a enim sed blandit. Nam facilisis maximus quam quis imperdiet. Ut imperdiet accumsan purus, non aliquet purus convallis quis. Vestibulum tincidunt nibh vel euismod mollis. Aliquam lacus eros, aliquet eu varius quis, maximus quis felis.
+
+                Praesent accumsan sagittis nibh a tempus. In tempus commodo iaculis. Duis ut leo porta, elementum ex a, porttitor arcu. Sed volutpat ut arcu eget luctus. Vestibulum lacus purus, tincidunt eget lacus sit amet, vehicula aliquet lacus. Aliquam hendrerit ultrices libero. Suspendisse blandit, ligula at fermentum lacinia, nulla quam scelerisque turpis, ut hendrerit sem enim eu nibh. Nulla facilisi. Proin quis placerat dui. Etiam mattis consequat fringilla.
+
+                Aliquam sollicitudin augue erat, eget venenatis turpis dictum a. Sed tempus ut metus ac tincidunt. Maecenas nec nunc ultricies, luctus eros ac, sollicitudin diam. Cras gravida quis lectus sed viverra. Vestibulum dui est, congue in elementum vel, lacinia sit amet velit. Cras sit amet facilisis risus. Nulla turpis mi, convallis sollicitudin volutpat in, tempus sit amet nulla. Praesent et est quam. Maecenas eget consectetur purus. Vivamus et eleifend orci.
+
+                Donec vestibulum accumsan dapibus. Duis non tempus tortor. Praesent fringilla dolor et odio sagittis aliquet. Pellentesque dui orci, fermentum at scelerisque eget, faucibus non sapien. Integer lacinia, ligula id ornare iaculis, turpis nibh viverra lectus, eu hendrerit mauris lectus nec justo. Quisque aliquet, orci vitae eleifend venenatis, velit tellus sagittis tellus, id lacinia dolor enim sed risus. Aliquam scelerisque libero aliquet rutrum ullamcorper. Donec nec turpis at tellus condimentum tempor. Aliquam egestas pharetra feugiat.
+
+                Nam efficitur ultrices scelerisque. Vivamus mattis viverra euismod. Cras commodo, odio non venenatis lacinia, lacus felis sagittis odio, ut luctus sapien risus id leo. Phasellus lacinia fringilla semper. Mauris non commodo nibh. Cras rutrum, massa vitae luctus malesuada, tortor ligula tincidunt eros, et egestas purus tellus ut leo. Nunc pharetra lacinia ante at sollicitudin.
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla aliquam mauris, fermentum vulputate nunc finibus eget. Aliquam nec augue cursus, tempus nibh quis, posuere neque. Donec interdum suscipit ex, vel commodo lectus auctor quis. Integer scelerisque erat ac nunc ornare porta. Sed efficitur tempor nulla non pulvinar. Vestibulum ultrices nunc rutrum diam consectetur cursus.
+
+                Mauris rutrum mi sed ante porta tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam non efficitur mauris, et suscipit enim. Vivamus pretium egestas fringilla. Suspendisse vel lacus lectus. Nulla et ullamcorper lacus. Nulla ultricies leo massa, eget auctor nisi fermentum tincidunt. Duis vel vulputate orci. Nam id imperdiet risus.
+
+                Cras congue arcu auctor molestie maximus. Nulla facilisi. Fusce mattis libero id urna viverra pulvinar. Cras tincidunt eget nulla vel iaculis. Morbi ultricies mi nec tincidunt semper. Duis id est magna. Integer rutrum, eros in placerat ornare, tellus tortor imperdiet arcu, blandit molestie libero augue vitae lectus. Sed ut consequat diam, ac sodales lacus. Nulla porta elit ut velit aliquam, vitae ornare lorem consectetur. Quisque pharetra pharetra est sed condimentum. Etiam ante nisl, feugiat nec rhoncus sed, aliquet sit amet tortor. Phasellus bibendum urna tellus, quis pharetra odio porttitor id. Nulla tristique dui risus, ut mattis ligula sollicitudin iaculis.
+
+                Nunc posuere nisi porta ligula mollis, quis rhoncus nulla rutrum. Praesent risus nunc, mattis sit amet erat id, vehicula dapibus elit. Phasellus eu ante sodales, dapibus felis ac, tempus nulla. Praesent dignissim purus sit amet rhoncus malesuada. Pellentesque vitae velit aliquet, condimentum justo sed, venenatis purus. Etiam luctus pretium justo et mollis. Cras turpis ipsum, ultricies eget facilisis sit amet, ultricies nec sapien.
+
+                Suspendisse vitae ante imperdiet, dignissim mauris at, vestibulum nunc. Cras in lobortis purus, non luctus mauris. Nullam at aliquet odio, eget tempus quam. Donec orci sapien, lobortis et commodo non, ultrices a ipsum. Duis quis sem eget magna tempor pellentesque. Aenean eros massa, iaculis id porta quis, euismod pulvinar mi. Fusce viverra mi vitae est ultricies pretium. Nulla massa quam, consequat id lectus vitae, faucibus consequat velit. Mauris pellentesque tellus non leo aliquam, quis sodales massa suscipit. Sed eu pellentesque libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut ac tempor nunc, vitae faucibus tellus. Fusce at tellus semper, ultricies velit a, fringilla tellus. Aenean rutrum dignissim ultricies. Vestibulum laoreet eu felis et tincidunt. Nullam vel malesuada velit.
+
+                Cras maximus eros id sodales elementum. Cras pulvinar ante quis erat viverra, et ultrices dolor pellentesque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi tristique luctus dui, id fermentum velit malesuada sed. Etiam sem dolor, pharetra ac metus at, molestie iaculis sapien. Sed vulputate tortor at volutpat ornare. Suspendisse mattis varius sapien fringilla posuere. Proin vehicula vehicula orci non tempor. Cras quis feugiat ligula, sollicitudin accumsan risus. Cras ut nibh neque. Pellentesque porta ante ut enim semper, non viverra dui cursus. Vivamus accumsan urna eget purus molestie, non luctus odio convallis. Donec egestas sem ut sollicitudin hendrerit. Sed molestie id est condimentum elementum. Fusce egestas est sit amet neque tempus, at cursus enim maximus. Maecenas placerat egestas massa, auctor efficitur neque.
+
+                Maecenas rutrum accumsan turpis et pretium. Nam vestibulum felis egestas pellentesque auctor. Fusce ut mi in velit lacinia consectetur quis in odio. Donec convallis gravida felis, quis placerat est venenatis ac. Curabitur erat mi, malesuada ut lacus vitae, congue posuere sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse potenti. Nam commodo nulla nec purus lobortis, non aliquam nisi vulputate. Aenean mi leo, porttitor eget hendrerit et, ullamcorper sed tellus. Suspendisse posuere convallis congue. Duis non auctor libero. Aliquam imperdiet nisi sed urna mattis sagittis. Nulla bibendum metus erat, quis feugiat odio ullamcorper eget. Nullam non libero at justo rutrum ornare non vitae leo. Duis sem nisi, ultrices in venenatis hendrerit, mollis vel nibh. Nam et felis congue, imperdiet tellus sit amet, varius felis. 
+            </textarea>
+
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="IdTermos" required>
+            <label class="form-check-label" for="invalidCheck">
+                Aceito os termos e Condições do Contrato.
+            </label>
+            <div class="invalid-feedback">
+                Aceito os termos do Contrato.
+            </div>
+        </div>
+    </div>
+    <button class="btn btn-primary" id="IdSubmit" type="submit">Cadastrar</button>
+</form>

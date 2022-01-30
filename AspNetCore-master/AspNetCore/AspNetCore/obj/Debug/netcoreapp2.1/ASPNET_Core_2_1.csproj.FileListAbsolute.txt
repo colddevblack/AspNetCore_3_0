@@ -1,0 +1,6 @@
+C:\Users\cold\Desktop\ASPNET_Core_FiFellings\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1\obj\Debug\netcoreapp2.1\ASPNET_Core_2_1.csprojAssemblyReference.cache
+C:\Users\cold\Desktop\ASPNET_Core_FiFellings\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1\obj\Debug\netcoreapp2.1\ASPNET_Core_2_1.AssemblyInfoInputs.cache
+C:\Users\cold\Desktop\ASPNET_Core_FiFellings\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1\obj\Debug\netcoreapp2.1\ASPNET_Core_2_1.AssemblyInfo.cs
+C:\Users\cold\Desktop\ASPNET_Core_FiFellings\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1\obj\Debug\netcoreapp2.1\ASPNET_Core_2_1.csproj.CoreCompileInputs.cache
+C:\Users\cold\Desktop\ASPNET_Core_FiFellings\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1\obj\Debug\netcoreapp2.1\ASPNET_Core_2_1.RazorAssemblyInfo.cache
+C:\Users\cold\Desktop\ASPNET_Core_FiFellings\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1_Full_Project\ASPNET_Core_2_1\obj\Debug\netcoreapp2.1\ASPNET_Core_2_1.RazorAssemblyInfo.cs
